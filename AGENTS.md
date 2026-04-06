@@ -15,6 +15,7 @@ Guidance for AI coding agents working in this repository.
 - `lazy-lock.json` — plugin lockfile; only update it when the task intentionally changes plugins or plugin versions.
 - `.stylua.toml` — Lua formatting config.
 - `README.md` — helpful general context, but this repo should be treated as my evolving personal config.
+- `.worktrees/` — preferred location for git worktrees for this repository; keep it ignored.
 
 ## Plugin and structure conventions
 
