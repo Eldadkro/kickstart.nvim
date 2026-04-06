@@ -28,7 +28,7 @@
 - `lua/custom/plugins/init.lua`
 - `init.lua`
 
-- [ ] **Implement the plugin spec change**
+- [x] **Implement the plugin spec change**
 
 Add this plugin table inside the returned lazy spec list in `lua/custom/plugins/init.lua`:
 
@@ -46,12 +46,12 @@ Add this plugin table inside the returned lazy spec list in `lua/custom/plugins/
 
 Place it as a sibling entry next to the existing VimTeX plugin so the file remains a single small custom plugin list.
 
-- [ ] **Run formatting verification**
+- [ ] **Run formatting verification** *(blocked: `stylua` not installed in this environment)*
 
 Run: `stylua init.lua lua/`
 Expected: command exits successfully with no errors.
 
-- [ ] **Run headless Neovim validation**
+- [x] **Run headless Neovim validation**
 
 Run: `nvim --headless "+qa"`
 Expected: command exits successfully.
